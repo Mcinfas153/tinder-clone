@@ -1,0 +1,10 @@
+.menu__bar {
+  background: linear-gradient(262deg, #ff7854, #fd267d);
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+.topbar__logo {
+  object-fit: contain;
+  height: 40px;
+}

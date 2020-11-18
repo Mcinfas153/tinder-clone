@@ -1,0 +1,30 @@
+.swipe__buttons {
+  display: flex;
+  height: 10vh;
+  position: absolute;
+  bottom: 20px;
+  width: 100vw;
+  justify-content: center;
+}
+.icon__button .MuiIconButton-root {
+  background-color: white;
+  box-shadow: 1px 1px 4px 1px #d2d1d1;
+  margin-left: 30px;
+}
+.dislike__button {
+  color: #ff5d5d;
+}
+.like__button {
+  color: #28d228;
+}
+.super__like__button {
+  color: #00adff;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

@@ -1,0 +1,40 @@
+.card {
+  position: relative;
+  background-color: white;
+  width: 500px;
+  padding: 20px;
+  max-width: 85vw;
+  height: 50vh;
+  box-shadow: 2px 2px 7px -1px #95959536;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+}
+.tinder__card__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10vh;
+}
+.swipe {
+  position: absolute;
+}
+.card__person__name {
+  bottom: 0;
+  position: absolute;
+  margin: 10px;
+  color: white;
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .card {
+    height: 65vh;
+  }
+  .tinder__card__container {
+    margin-top: 5vh;
+  }
+}
